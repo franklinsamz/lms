@@ -1,0 +1,305 @@
+.custom-content-panel {
+    float: left;
+    width: calc(100% - 75px);
+    padding: 20px 15px;
+    background: #F6F6F6 none repeat scroll 0% 0%;
+    margin: 0px !important;
+    height: calc(100vh - 50px);
+    font-family: "Lato",sans-serif;
+    overflow-y: auto;
+}
+.top-bar {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.title-area {
+    width: auto;
+    float: left;
+}
+.title-area .title-page {
+    font-size: 20px;
+    color: #444;
+    line-height: 22px;
+    margin: 8px 0px;
+    font-weight: 500;
+}
+.count-select {
+    color: #5AC8F3;
+    font-size: 15px;
+    font-weight: 600;
+}
+.option-area {
+    float: right;
+    height: 40px;
+}
+.search-panel {
+    float: left;
+    transition: all 0.3s linear 0s;
+    position: relative;
+}
+.search-panel .input-text.search-box {
+    border: 1px solid #EFEFEF;
+    padding: 12px 15px !important;
+    width: 315px;
+    border-radius: 3px;
+    transition: all 0.3s linear 0s;
+    font-size: 12px;
+    margin-bottom: 0px;
+    max-height: 40px;
+}
+.search-panel a {
+    width: 13px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 18px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+.search-ico {
+    display: inline-block;
+    background: transparent url("../images/sprite.svg") no-repeat scroll -49px -86px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 16px;
+}
+.button-area {
+    float: right;
+    margin-left: 15px;
+}
+.icon-lib.add-ico::before {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-position: -87px -85px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+.icon-lib::before {
+    content: "";
+    background: transparent url("../images/sprite.svg") no-repeat scroll 0% 0%;
+}
+.general-btn{
+    padding: 10px 25px;
+    background: #14B4F2 none repeat scroll 0% 0%;
+    color: #FFF;
+    transition: all 0.3s linear 0s;
+    border: 0px none;
+}
+
+.btn{
+    border-radius: 3px;
+    -moz-user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+div.panel.course-listing {
+    padding-bottom: 0px !important;
+    margin-bottom: 15px;
+    box-shadow: none;
+    border: 1px solid #EEE;
+}
+.panel.list-block {
+    position: relative;
+}
+.list-left-thumb {
+    width: 165px;
+    height: 98px;
+    float: left;
+}
+.thum-list-img {
+    width: 165px;
+    height: 100%;
+    min-height: 98px;
+    float: left;
+    position: absolute;
+}
+.blackfont {
+    color: #656565;
+}
+.thum-list-img img {
+    width: 165px;
+    height: 100%;
+    object-fit: cover;
+}
+.list-right-details {
+    float: left;
+    width: calc(100% - 165px);
+    height: 100%;
+    min-height: 98px;
+    padding: 18px 20px;
+    position: relative;
+    border-left: 1px solid #EEE;
+}
+.options-toggler {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    background: transparent url("../images/sprite.svg") no-repeat scroll -255px -56px;
+    position: absolute;
+    right: 20px;
+    transition: all 0.3s linear 0s;
+}
+.toggle-option {
+    width: 106px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    position: absolute;
+    right: 8px;
+    top: 33px;
+    z-index: 99;
+    display: none;
+    transition: all 0.3s linear 0s;
+}
+.list-block.course-listing .hdtitle {
+    margin-bottom: 3px;
+    font-size: 14px !important;
+    color: #656565;
+}
+.list-block h4 {
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+.hdtitle {
+    font-size: 1.5em !important;
+    font-weight: 600;
+    color: #888;
+}
+.list-block .course-description {
+    color: #B1B3B7;
+    margin-bottom: 4px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 90%;
+}
+.cour_desc_detail.course-description {
+    min-height: auto;
+}
+.list-block p {
+    margin: 0px 0px 8px;
+    color: #444;
+}
+.course-listing .tag_list {
+    border: 0px none;
+    text-transform: uppercase;
+}
+.tag_list {
+    border: 1px solid #E4E5E7;
+    border-radius: 5px;
+    color: #AAA !important;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 3px;
+}
+.list-right-details {
+    float: left;
+    width: calc(100% - 165px);
+    height: 100%;
+    min-height: 98px;
+    padding: 18px 20px;
+    position: relative;
+    border-left: 1px solid #eeeeee;
+}
+.list-block.course-listing .hdtitle {
+    margin-bottom: 3px;
+    font-size: 14px !important;
+    color: #656565;
+}
+
+.list-block h4 {
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.hdtitle {
+    font-size: 1.5em !important;
+    font-weight: 600;
+    color: #888;
+}
+.list-block .course-description {
+    color: #b1b3b7;
+    margin-bottom: 4px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 90%;
+}
+
+.cour_desc_detail.course-description {
+    min-height: auto;
+}
+
+.list-block p {
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #444;
+}
+.course-listing .tag_list {
+    border: 0;
+    text-transform: uppercase;
+}
+
+.tag_list {
+    border: 1px solid #e4e5e7;
+    border-radius: 5px;
+    color: #aaa !important;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 3px;
+}
+.tag_list .blu-txt {
+    color: #00a4f1;
+    font-weight: 500;
+}
+
+.tag_list > span {
+    color: #999;
+    font-weight: 700;
+}
+
+.blu-txt {
+    color: #0cb1f2;
+    font-weight: 600;
+}
+
+div.panel.course-listing {
+    padding-bottom: 0 !important;
+    margin-bottom: 15px;
+    box-shadow: none;
+    border: 1px solid #eeeeee;
+}
+
+.panel.list-block {
+    position: relative;
+}
+
+div.panel {
+    padding-bottom: 20px !important;
+}
+
+div.panel {
+    padding: 20px 20px 2px 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    margin: 0 0 20px 0;
+}

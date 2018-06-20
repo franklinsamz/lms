@@ -1,0 +1,104 @@
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+    top: 100px;
+    left: 65%;
+    width: 82%;
+    margin-left: -41%;
+    background: #eee url(../../images/modal-gloss.png) no-repeat -200px -80px;
+    position: absolute;
+
+}
+.modal-header {
+    background: #444;
+    color: #fff;
+    padding: 8px 13px;
+}
+.modal-header {
+    background:  #444;
+    padding: 8px 13px;
+}
+
+h5.modal-title {
+    font-size: 20px;
+    font-weight: 300;
+    color: #efefef;
+}
+.row .two {
+    width: 15%;
+}
+.row .six {
+    width: 48.9%;
+}
+.row .ten {
+    width: 83%;
+}
+
+.text-center {
+    text-align: center;
+}
+.columns {
+
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+.modal-footer {
+    padding: 12px 15px;
+    border-top: 1px solid #ccc;
+}
+.opaque-img-foradd {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 1px solid #dcdcdc;
+}
+.pro-pic-edit-sec {
+    margin-top: 10px;
+}
+.column:first-child, .columns:first-child {
+    margin-left: 0;
+}
+.control.custom-box .input-text {
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: none;
+    width: 100%;
+}
+.row{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.row .six {
+    width: 48.9%;
+}
+
+.addbusi .six.columns.control.custom-box {
+    height: auto;
+}
+.custom-box .select-box {
+    width: 100%;
+    padding: 0px 19px 0px 0px;
+}
+.addbusi .six.columns.control.custom-box {
+    height: auto;
+}
+
+.row .twelve {
+    width: 100%;
+}
+input#lgname {
+    margin: 0px 7px;
+
+}
+
+.alert-box.error {
+    background-color: #c00000;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,0.3);
+}

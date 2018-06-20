@@ -1,0 +1,16 @@
+
+.topbar {
+  background:#444;
+  height:55px;
+  padding-left:10px;
+}
+.topbar-logo{
+  position: relative;
+  top:14px;
+}
+
+
+.topbar-logo-img-cont img{
+  width: 100px !important;
+}
+

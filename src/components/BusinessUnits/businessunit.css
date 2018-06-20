@@ -1,0 +1,315 @@
+.panel.list-block.usr_list_block.course-listing {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+}
+.top-bar {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.title-area {
+    width: auto;
+    float: left;
+}
+
+.title-area .title-page {
+    font-size: 24px;
+    color: #444444;
+    line-height: 36px;
+    margin-bottom: 0;
+    /* margin: 8px 0px; */
+    font-weight: 500;
+}
+.top-bar .filter-options {
+    float: left;
+    margin: 10px 30px;
+}
+ul {
+    list-style: none outside;
+}
+.filter-options .filter-item.active {
+    padding-right: 28px;
+}
+.filter-item.active {
+    background: #14b4f2;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #14b4f2;
+    text-align: center;
+}
+.filter-options .filter-item {
+    font-size: 12px;
+    float: left;
+    min-width: 95px;
+    margin: 0;
+    padding: 0px 7px;
+    margin-right: 10px;
+    position: relative;
+    color: #444444;
+}
+.filter-item.active .filter-count {
+    display: inline-block;
+    background: #fff;
+    color: #14b4f2;
+    padding: 0 4px;
+    float: right;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    min-width: 13px;
+    text-align: center;
+}
+.filter-options .filter-item.active a {
+    color: #fff;
+}
+.filter-options .filter-item a {
+    color: #5a5a5a;
+}
+a {
+    color: #2a85e8;
+    text-decoration: none;
+    line-height: inherit;
+}
+
+.option-area {
+    float: right;
+    height: 40px;
+}
+.search-panel {
+    float: left;
+    transition: .3s linear;
+    position: relative;
+}
+.search-panel .input-text.search-box {
+    border: 1px solid #efefef;
+    padding: 12px 15px !important;
+    width: 315px;
+    border-radius: 3px;
+    transition: .3s linear;
+    font-size: 12px;
+    margin-bottom: 0;
+    max-height: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.search-panel a {
+    width: 13px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 18px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+a {
+    color: #2a85e8;
+    text-decoration: none;
+    line-height: inherit;
+}
+.search-panel:hover .search-ico {
+    opacity: .5;
+    transition: .3s linear;
+}
+.search-ico {
+    display: inline-block;
+    background: url(../../images/sprite.svg) no-repeat -49px -86px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 16px;
+    -webkit-backface-visibility: hidden;
+}
+.button-area {
+    float: right;
+    margin-left: 15px;
+}
+
+
+
+a:hover {
+    color: #757575;
+}
+.general-btn {
+    padding: 10px 25px;
+    background: #14b4f2;
+    color: #fff !important;
+    transition: .3s linear;
+    border: 0;
+    -webkit-backface-visibility: hidden;
+}
+.general-btn:hover {
+    opacity: .5;
+    color: #fff !important;
+}
+.btn {
+    border-radius: 3px;
+    -moz-user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.general-btn {
+    padding: 10px 25px;
+    background: #14b4f2;
+    color: #fff;
+    transition: .3s linear;
+    border: 0;
+    -webkit-backface-visibility: hidden;
+}
+.btn {
+    border-radius: 3px;
+    -moz-user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+a {
+    color: #2a85e8;
+    text-decoration: none;
+    line-height: inherit;
+}
+form {
+    margin: 0 -8px 0 0;
+}
+
+.drop-options {
+    float: left;
+}
+.select-box {
+    display: inline-block;
+}
+
+.select-box select {
+    height: 40px;
+    border: 1px solid #f0f0f0;
+    padding: 0 15px;
+    padding-right: 32px;
+    color: #818a8c;
+    min-width: 130px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    background-image: url(../../images/arrow-select.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 12px);
+    background-position-y: 17px;
+    cursor: pointer;
+    margin-left: 11px;
+    float: left;
+    margin-bottom: 0;
+}
+.list-left-thumb {
+    width: 165px;
+    height: 98px;
+    float: left;
+}
+.list-right-details {
+    float: left;
+    width: calc(100% - 165px);
+    height: 100%;
+    min-height: 98px;
+    padding: 15px;
+    position: relative;
+    border-left: 1px solid #eeeeee;
+}
+.panel.course-listing {
+    padding: 0;
+    border-radius: 4px;
+}
+.thum-list-img {
+    width: 165px;
+    height: 100%;
+    min-height: 98px;
+    float: left;
+    position: absolute;
+}
+.thum-list-img img {
+    width: 165px;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.list-block.course-listing .hdtitle {
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    color: #656565;
+}
+.list-block h4 {
+    line-height: 1em;
+}
+.hdtitle {
+    font-weight: 600;
+ }
+
+.user-det-block {
+    margin-bottom: 1px;
+}
+.icon-lib.reg:before {
+    display: inline-block;
+    background-position: -307px -527px;
+    width: 13px;
+    height: 14px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.icon-lib:before {
+    content: "";
+    background: url(../../images/sprite.svg) no-repeat;
+}
+ .user-det-block {
+    font-size: 11px;
+    color: #bebec1;
+}
+
+.list-block p {
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #444;
+}
+.user-det-block {
+    margin-bottom: 2px;
+    font-size: 12px;
+    padding-left: 22px;
+    color: #c3c3c6;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 11px;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
