@@ -13,13 +13,7 @@ export default class FilterList extends React.Component {
 
     handleChange(e){
         console.log(e.target.value);
-        this.setState({
-            searchDetails: 'test',
-            newFilm: e.target.value,
-        })
-
-        console.log(this.state.newFilm);
-        this.props.searchFilter(e.target.value);
+          this.props.searchFilter(e.target.value);
     }
   render() {
           return (

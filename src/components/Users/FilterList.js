@@ -8,27 +8,14 @@ export default class FilterList extends React.Component {
     constructor(props) {
      super(props);
         this.handleChange = this.handleChange.bind(this);
-
-    this.state={
-          searchDetails :'',
-          newFilm : ''
-      }
-
-
-
     }
 
 
 
     handleChange(e){
 console.log(e.target.value);
-        this.setState({
-            searchDetails: 'test',
-            newFilm: e.target.value,
-        })
 
-        console.log(this.state.newFilm);
-        this.props.searchFilter(e.target.value);
+             this.props.searchFilter(e.target.value);
 
 
     }
@@ -36,31 +23,24 @@ console.log(e.target.value);
           return (
       <div className="row">
 
-
-
-
-
-
               <div className="top-bar">
                   <div className="title-area">
-                      <h3 className="title-page">Business Units <span className="count-select"
-                                                                      id="usercount">(31)</span></h3>
+                      <h3 className="title-page">
+                          Business Units <span className="count-select"  id="usercount">(31)</span></h3>
                   </div>
                   <ul className="filter-options">
-
-
         {this.props.filters.map(item =>
-          <Filter id={item.get('id')}
+                 <Filter id={item.get('id')}
                   key={item.get('id')}
                   changeFilter={this.props.changeFilter}
                   />
         )}
                   </ul>
-                  <form name="searchForm" action="https://lmsv2.labsls.com/beta/user/learnerGroup" method="post">
+
                       <div className="option-area">
                           <div className="search-panel">
-                              <input type="text" id="search" name="search"   className="input-text search-box" placeholder="Search by Name, Code, Region" onChange={ this.handleChange } />
-                              <a href="javascript:void(0);" id="opaic" onClick={ this.handleChange }></a>
+      <input type="text" id="search" name="search"   className="input-text search-box" placeholder="Search by Name, Code, Region" onChange={ this.handleChange } />
+      <a href="javascript:void(0);" id="opaic" onClick={ this.handleChange }></a>
 
                               <span className="search-ico">  </span>
                           </div>
@@ -82,7 +62,7 @@ console.log(e.target.value);
                               {/*</div>*/}
                           {/*</div>*/}
                       </div>
-                  </form>
+                 
               </div>
 
 

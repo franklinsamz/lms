@@ -1,0 +1,111 @@
+.custom-content-panel {
+    float: left;
+    width: calc(100% - 75px);
+    padding: 20px 15px;
+    background: #F6F6F6 none repeat scroll 0% 0%;
+    margin: 0px !important;
+    height: calc(100vh - 50px);
+    font-family: "Lato",sans-serif;
+    overflow-y: auto;
+}
+.top-bar {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.title-area {
+    width: auto;
+    float: left;
+}
+.title-area .title-page {
+    font-size: 20px;
+    color: #444;
+    line-height: 22px;
+    margin: 8px 0px;
+    font-weight: 500;
+}
+.count-select {
+    color: #5AC8F3;
+    font-size: 15px;
+    font-weight: 600;
+}
+.option-area {
+    float: right;
+    height: 40px;
+}
+.search-panel {
+    float: left;
+    transition: all 0.3s linear 0s;
+    position: relative;
+}
+.search-panel .input-text.search-box {
+    border: 1px solid #EFEFEF;
+    padding: 12px 15px !important;
+    width: 315px;
+    border-radius: 3px;
+    transition: all 0.3s linear 0s;
+    font-size: 12px;
+    margin-bottom: 0px;
+    max-height: 40px;
+}
+.search-panel a {
+    width: 13px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 18px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+.search-ico {
+    display: inline-block;
+    background: transparent url("../images/sprite.svg") no-repeat scroll -49px -86px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: 16px;
+}
+.button-area {
+    float: right;
+    margin-left: 15px;
+}
+.icon-lib.add-ico::before {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-position: -87px -85px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+.icon-lib::before {
+    content: "";
+    background: transparent url("../images/sprite.svg") no-repeat scroll 0% 0%;
+}
+.general-btn{
+    padding: 10px 25px;
+    background: #14B4F2 none repeat scroll 0% 0%;
+    color: #FFF;
+    transition: all 0.3s linear 0s;
+    border: 0px none;
+}
+
+.btn{
+    border-radius: 3px;
+    -moz-user-select: none;
+    background-image: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+

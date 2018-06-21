@@ -35,7 +35,7 @@ class ListTop extends Component{
 						  	  <span className="search-ico"></span>
        			    </div>
         		  	    <div className="button-area">
-        		  	      <a class="btn general-btn icon-lib add-ico" id="pgm_buttonForModal">New Course</a> 
+        		  	      <a className="btn general-btn icon-lib add-ico" id="pgm_buttonForModal">New Course</a>
         		  	    </div>
    			      </div>
 				</div>
@@ -70,7 +70,7 @@ class InnerSec extends Component{
             { this.state.listcourses.map(listcourses =>
 
 
-		  	<div className="panel list-block usr_list_block course-listing">
+		  	<div  className="panel list-block usr_list_block course-listing">
 
      			 <div className="row">
        				<div className="list-left-thumb">
@@ -79,7 +79,7 @@ class InnerSec extends Component{
         					  </a>
        				 </div>
 					 <div className="list-right-details">
-						 <h4 className="hdtitle"><a class="blackfont">{listcourses.prgm_title}</a>
+						 <h4 className="hdtitle"><a className="blackfont">{listcourses.prgm_title}</a>
 						 </h4>
 						 <p className="cour_desc_detail course-description">{listcourses.prgm_desc}
 						 </p>

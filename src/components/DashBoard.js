@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import {dashboardService} from "../services";
-import axios from 'axios';
+import axios from 'axios'
 import './DashBoard.css';
+import '../index.css';
+
 
  class DashBoard extends Component {
   render() {
@@ -236,7 +238,7 @@ class TopFive extends Component{
 
                                     { this.state.topCourses.map(topCourse =>
                                         <tr>
-                                            <td className="top-names"key={topCourse.course_id}>{topCourse.course_name}</td>
+                                            <td className="top-names" id={topCourse.course_id}>{topCourse.course_name}</td>
                                             <td className="skill-level">{topCourse.coursecnt}</td>
                                         </tr>
                                     )}

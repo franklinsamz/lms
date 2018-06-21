@@ -6,3 +6,36 @@ body {
 .wrapper{
   width:100%;
 }
+
+.maincontainer {
+    padding: 15px;
+    width: calc(100% - 70px);
+}
+.panel.list-block.usr_list_block.course-listing {
+    margin-left:  0px;
+    margin-right: 0px;
+}
+div#list {
+    width: 100%;
+}
+.side-bar-btn:hover {
+    background: #14b4f2;
+    transition: 0.3s linear;
+    color: #fff;
+}
+.side-bar-btn {
+    transition: 0.3s linear;
+    width: 70px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.side-bar {
+    width: 70px;
+}
+.side-bar-btn.active {
+    color: #fff;
+}
+.topbar-logo {
+    color: #eee;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

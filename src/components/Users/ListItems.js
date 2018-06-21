@@ -4,26 +4,21 @@ import "./businessunit.css"
 export default class ListItems extends React.Component {
 
   render() {
-    let img_url = "https://lmsv2.labsls.com/beta/logo/" +  this.props.image
+    let img_url = "https://lmsv2.labsls.com/beta/photo/" +  this.props.image
+
     return (
 
         <div className="panel list-block usr_list_block course-listing" >
+            <ul id={this.props.key}>
 
-  <Row>
-            <Media className="list-left-thumb">
-                <Media className="blackfont thum-list-img" href="#">
-                    <Media object src={img_url} alt="Generic placeholder image" />
-                </Media>
+                <li>{this.props.email}</li>
+                <li><img src={img_url} /></li>
+                <li>{this.props.phone_mobile}</li>
+                <li>{this.props.first_name}</li>
+                <li>{this.props.last_name}</li>
+                <li>{this.props.designation}</li>
 
-            </Media>
-      <div className="list-right-details">
-          <Media className="hdtitle">
-              <a className="blackfont"> {this.props.title}</a>
-          </Media>
-          <p className="user-det-block icon-lib reg">Yangon,Tamil Nadu
-          </p>
-      </div>
-  </Row>
+            </ul>
 
         </div>
 

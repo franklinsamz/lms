@@ -24,7 +24,7 @@ export class FilterApp extends React.Component {
 
 
 function mapStateToProps(state) {
-
+    console.log(state);
 
 
 

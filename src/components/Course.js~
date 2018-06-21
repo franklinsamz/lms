@@ -1,0 +1,82 @@
+import React, { Component } from 'react';
+import './list.css';
+
+class Course extends Component {
+  render() {
+    return (
+        <div className="custom-content-panel">
+        		<div className="row">
+        				<ListTop />
+        				<InnerSec />
+        		 </div>
+        </div>
+    );
+  }
+}
+
+class ListTop extends Component{
+	render(){
+		return(
+				<div className="top-bar">
+						<div className="title-area">
+						    <h3 className="title-page">Courses
+						    <span className="count-select"></span>
+						    </h3>
+						 </div>
+						 <div className="option-area ">
+				  		 <div className="search-panel">
+       					  <input id="search" className="input-text search-box" type="text" placeholder="Search" name="search" value=""></input>
+ 							  <a id="opaic" href="#"></a>
+						  	  <span className="search-ico"></span>
+       			    </div>
+        		  	    <div className="button-area">
+        		  	      <a class="btn general-btn icon-lib add-ico" id="pgm_buttonForModal">New Course</a> 
+        		  	    </div>
+   			      </div>
+				</div>
+		     
+		)
+	}
+}
+
+class InnerSec extends Component{
+	render(){
+		return(
+		<div id="list">
+		  	<div className="panel list-block usr_list_block course-listing">
+     			 <div className="row">
+       				<div className="list-left-thumb">
+        					  <a className="blackfont thum-list-img" href="">
+        					  <img id="img_user" src="http://lmsvignet.s3.amazonaws.com/assets/images/5adf190acb190_Picture1.jpg" />
+        					  </a>
+       				 </div>
+       				   <div className="list-right-details">
+          					<a href="javascript:void(0);" class="options-toggler"></a>
+          					<div className="toggle-option">
+              				  <ul className="list-options">
+                			  <li><a href="" class="icon-lib assign">Assign</a></li>
+                			  <li><a href="javascript:void(0);" class="icon-lib edits">Edit</a></li>
+                  		  <li><a href="javascript:void(0);" class="icon-lib dlt">Delete</a></li>
+             			    </ul>
+          				   </div>
+          				   <h4 className="hdtitle"><a class="blackfont" href="">CUSTOMER EXPERIENCE COURSE</a></h4>
+         				   <p className="cour_desc_detail course-description">
+         				    For any business to maintain a good reputation and generate loyal customers. 
+           				   </p>
+         				   <p>
+         				    <label className="tag_list"><span class="blu-txt">10</span> Modules</label>
+           					 <label className="tag_list"><span class="blu-txt">24</span> Users</label>
+        				      </p>
+       					 </div>
+  					    </div>
+           </div>    
+		   </div>
+		</div>
+	);
+	}
+}
+
+
+
+
+export default Course;

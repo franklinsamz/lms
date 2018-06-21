@@ -93,7 +93,7 @@ export default class NewBusinessUnit extends React.Component {
         return (
             <div>
                 <div className="result">{ this.state.message }</div>
-                <a className="btn general-btn icon-lib add-ico" id="buttonForModal1" onClick={this.toggle}>New Business Unit</a>
+                <a className="btn general-btn icon-lib add-ico" id="buttonForModal1" onClick={this.toggle}>New User</a>
 
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                 <form name="contactform" ref="form" method="post" className="contactform" onSubmit= {this.contactSubmit.bind(this)}>

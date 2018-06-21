@@ -1,15 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.wrapper{
+  width:100%;
+}
+
 .maincontainer {
-  padding: 15px 30px;
+  padding: 15px;
+  width: calc(100% - 70px);
   background: #f6f6f6;
   font-family: 'Lato', sans-serif;
   height: calc(100vh - 50px);
-  width: calc(100% - 75px);
   float: left;
   overflow: auto;
 }
-body{
-  overflow: hidden;
+.panel.list-block.usr_list_block.course-listing {
+  margin-left:  0px;
+  margin-right: 0px;
 }
+div#list {
+  width: 100%;
+}
+.side-bar-btn:hover {
+  background: #14b4f2;
+  transition: 0.3s linear;
+  color: #fff;
+}
+.side-bar-btn {
+  transition: 0.3s linear;
+  width: 70px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.side-bar {
+  width: 70px;
+}
+.side-bar-btn.active {
+  color: #fff;
+}
+.topbar-logo {
+  color: #eee;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
 .main-in{
   float: left;
   width: 100%;

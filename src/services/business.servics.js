@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 export const businessServices={
-    postBusinessUnit,
+    allBusinessUnit,
 
 
 }
-function postBusinessUnit(user)
+function allBusinessUnit(user)
 
 
 {
 
-    return  axios.post(`https://jsonplaceholder.typicode.com/users`,user );
+    return  axios.get(`http://lmsapi.labsls.com/dashboard/businessunit`);
 }

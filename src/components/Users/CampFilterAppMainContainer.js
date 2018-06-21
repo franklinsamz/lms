@@ -1,11 +1,11 @@
 import React from 'react'
-import {FilterAppContainer} from './FilterApp';
+import {CampFilterAppContainer} from './CampFilterApp';
 import reducer from '../../reducers'
 import {createStore} from 'redux';
 import {User} from "../../services";
-import Loader from "../../components/Loader"
+import axios from 'axios';
 import {Provider} from 'react-redux';
-import {businessServices} from "../../services";
+import {userServices} from "../../services";
 const store = createStore(reducer)
 
 
@@ -43,6 +43,7 @@ function set_state(campgrounds) {
                 {id: 'search', inuse: false },
                 {id: 'searchValue',inuse: '' },
             ],
+            markers: campgrounds,
             campgrounds: campgrounds
         }
     })
@@ -50,7 +51,7 @@ console.log('set_state');
 }
 
 
-export class FilterAppMainContainer extends React.Component {
+export class CampFilterAppMainContainer extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -59,7 +60,7 @@ export class FilterAppMainContainer extends React.Component {
     }
     componentWillMount() {
           const self = this;
-        var promiseObj = businessServices.allBusinessUnit();
+        var promiseObj = userServices.listuser();
         promiseObj.then(res => {
             let features =res.data.features;
             console.log(features)
@@ -69,19 +70,19 @@ export class FilterAppMainContainer extends React.Component {
                 ActionCompleted: 'Completed'
             });
         })
+
+
     }
 
     render() {
 
         if(!this.state.ActionCompleted.length)
-
             return null;
-        else
         return (
 
             <div>
                 <Provider store={store}>
-                    <FilterAppContainer />
+                    <CampFilterAppContainer />
                 </Provider>
 
             </div>
@@ -100,4 +101,4 @@ export class FilterAppMainContainer extends React.Component {
 
 }
 
-export default FilterAppMainContainer;
+export default CampFilterAppMainContainer;

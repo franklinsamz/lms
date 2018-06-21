@@ -7,7 +7,7 @@ function getFilterIndex(state, itemId) {
 }
 
 function setState(state, newState) {
-console.log(newState)
+
     return state.merge(newState);
 }
 
@@ -44,6 +44,8 @@ function searchFilter(state, filter) {
 
 
 function changeFilter(state, filter) {
+
+    console.log(filter)
     const updatedFilter11 = state.get('searchfilter')
         .get(0)
         .update('inuse', inuse =>  false);
